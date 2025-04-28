@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesso Usuário - Mapeando</title>
+    
+    <!-- Link para a fonte Poppins Bold -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Link para o Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        /* Aplica a fonte Poppins Bold para toda a página */
+        body {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700; /* Poppins Bold */
+        background-color: #01162b;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+        
+        .container {
+            max-width: 500px;
+            margin-top: 50px;
+            margin-bottom: 30px; /* Dá um espaçamento inferior */
+        }
+        
+        /* Ajusta a posição dos botões */
+        .btn-container {
+            margin-top: auto; /* Empurra os botões para o fundo da página */
+        }
+
+        .btn-custom {
+            font-size: 16px;
+            padding: 15px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <h2 class="mb-4">Acesso Usuário</h2>
+    </div>
+
+    <!-- Botões de Login e Registrar -->
+    <div class="container btn-container text-center">
+        <div class="d-flex justify-content-between">
+            <a href="login.html" class="btn btn-primary btn-custom">Login</a>
+            <a href="registrar.html" class="btn btn-success btn-custom">Registrar</a>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS e dependências -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
